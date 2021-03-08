@@ -1,0 +1,112 @@
+#ifndef EYESPARK_ARRAYMESH_H
+#define EYESPARK_ARRAYMESH_H
+
+#include "../../resource/mesh/Mesh.h"
+#include "../../util/Error.h"
+#include "../../util/Logger.h"
+#include "../../util/String.h"
+#include "../../util/WinApi.h"
+
+class ArrayMesh : public Mesh {
+private:
+public:
+    ArrayMesh(String path) {
+        FILE* file = fopen(path.data(), "r");
+        if(file == nullptr) {
+            String args[] = { WinApi::fullPath(path) };
+            Error::error(Error::FILE_OPENING_ERROR, 1, args);
+        }
+
+        unsigned int *info = new unsigned int[4];
+        fread(info, sizeof(unsigned int), 4, file);
+
+        Vector3 *tempVertices = new Vector3[info[0]];
+        Vector2 *tempTexCoords = new Vector2[info[1]];
+        Vector3 *tempNormals = new Vector3[info[2]];
+        unsigned int *tempIndices = new unsigned int[info[3]*3 * 3];
+        fread(tempVertices, sizeof(Vector3), info[0], file);
+        fread(tempTexCoords, sizeof(Vector2), info[1], file);
+        fread(tempNormals, sizeof(Vector3), info[2], file);
+        fread(tempIndices, sizeof(unsigned int), info[3]*3 * 3, file);
+
+        Vector3 *extendedVertices = new Vector3[info[3]*3];
+        Vector2 *extendedTexCoords = new Vector2[info[3]*3];
+        Vector3 *extendedNormals = new Vector3[info[3]*3];
+        for(unsigned int i=0; i<info[3]*3; i++) {
+            extendedVertices[i] = tempVertices[tempIndices[i*3+0]];
+            extendedTexCoords[i] = tempTexCoords[tempIndices[i*3+1]];
+            extendedNormals[i] = tempNormals[tempIndices[i*3+2]];
+        }
+        delete[] tempVertices;
+        delete[] tempTexCoords;
+        delete[] tempNormals;
+
+        Vector3 *vertices = new Vector3[info[3]*3]; //a little too large but does not need to be resized
+        Vector2 *texCoords = new Vector2[info[3]*3]; //a little too large but does not need to be resized
+        Vector3 *normals = new Vector3[info[3]*3]; //a little too large but does not need to be resized
+        unsigned int *indices = new unsigned int[info[3] * 3]; //a little too large but does not need to be resized
+        indexCount = 0;
+        unsigned int *usedIndices = new unsigned int[info[3]*3 * 3];
+        unsigned int usedIndexCount = 0;
+        for(unsigned int i=0; i<info[3]*3; i++) {
+            int found = -1;
+            for(unsigned int j=0; j<usedIndexCount; j++){
+                if(tempIndices[i*3+0]==usedIndices[j*3+0] && tempIndices[i*3+1]==usedIndices[j*3+1] && tempIndices[i*3+2]==usedIndices[j*3+2])found = j;
+            }
+
+            if(found < 0) {
+                vertices[usedIndexCount] = extendedVertices[i];
+                texCoords[usedIndexCount] = extendedTexCoords[i];
+                normals[usedIndexCount] = extendedNormals[i];
+                indices[indexCount] = usedIndexCount;
+                usedIndices[usedIndexCount*3+0] = tempIndices[i*3+0];
+                usedIndices[usedIndexCount*3+1] = tempIndices[i*3+1];
+                usedIndices[usedIndexCount*3+2] = tempIndices[i*3+2];
+                usedIndexCount++;
+            } else {
+                indices[usedIndexCount] = found;
+            }
+            indexCount++;
+        }
+
+        float *vertexData = new float[usedIndexCount * 8];
+        for(unsigned int i=0; i<info[3]*3; i++) {
+            vertexData[i*8+0] = vertices[i].x;
+            vertexData[i*8+1] = vertices[i].y;
+            vertexData[i*8+2] = vertices[i].z;
+            vertexData[i*8+3] = texCoords[i].x;
+            vertexData[i*8+4] = texCoords[i].y;
+            vertexData[i*8+5] = normals[i].x;
+            vertexData[i*8+6] = normals[i].y;
+            vertexData[i*8+7] = normals[i].z;
+        }
+
+
+        /*for(unsigned int i=0; i<usedIndexCount; i++)printf("%f %f %f\n", vertices[i].x, vertices[i].y, vertices[i].z);
+        printf("\n");
+        for(unsigned int i=0; i<usedIndexCount; i++)printf("%f %f\n", texCoords[i].x, texCoords[i].y);
+        printf("\n");
+        for(unsigned int i=0; i<usedIndexCount; i++)printf("%f %f %f\n", normals[i].x, normals[i].y, normals[i].z);
+        printf("\n");
+        for(unsigned int i=0; i<indexCount; i++)printf("%u ", indices[i]);
+        WinApi::exit(0);*/
+
+
+        glEnableVertexAttribArray(0);
+        glEnableVertexAttribArray(1);
+        glEnableVertexAttribArray(2);
+
+        glBindBuffer(GL_ARRAY_BUFFER, vbos[0]);
+        glBufferData(GL_ARRAY_BUFFER, usedIndexCount*sizeof(float)*8, vertexData, GL_STATIC_DRAW);
+        delete[] vertexData;
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8*sizeof(float), (const void *)0);
+        glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 8*sizeof(float), (const void *)(sizeof(float)*3));
+        glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, 8*sizeof(float), (const void *)(sizeof(float)*5));
+
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, vbos[1]);
+        glBufferData(GL_ELEMENT_ARRAY_BUFFER, indexCount*sizeof(unsigned int), indices, GL_STATIC_DRAW);
+        delete[] indices;
+    }
+};
+
+#endif // EYESPARK_ARRAYMESH_H

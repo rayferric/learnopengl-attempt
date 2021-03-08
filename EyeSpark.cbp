@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EyeSpark" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/EyeSpark" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/App.h" />
+		<Unit filename="src/eyespark/EyeSpark.h" />
+		<Unit filename="src/eyespark/node/Model.h" />
+		<Unit filename="src/eyespark/node/Node.h" />
+		<Unit filename="src/eyespark/node/camera/Camera.h" />
+		<Unit filename="src/eyespark/node/camera/OrthographicCamera.h" />
+		<Unit filename="src/eyespark/node/camera/PerspectiveCamera.h" />
+		<Unit filename="src/eyespark/node/light/DirectionalLight.h" />
+		<Unit filename="src/eyespark/node/light/Light.h" />
+		<Unit filename="src/eyespark/node/light/PointLight.h" />
+		<Unit filename="src/eyespark/node/light/SpotLight.h" />
+		<Unit filename="src/eyespark/renderer/Renderer.h" />
+		<Unit filename="src/eyespark/resource/Environment.h" />
+		<Unit filename="src/eyespark/resource/Resource.h" />
+		<Unit filename="src/eyespark/resource/Scene.h" />
+		<Unit filename="src/eyespark/resource/Shader.h" />
+		<Unit filename="src/eyespark/resource/effect/Effect.h" />
+		<Unit filename="src/eyespark/resource/effect/SSREffect.h" />
+		<Unit filename="src/eyespark/resource/material/BasicMaterial.h" />
+		<Unit filename="src/eyespark/resource/material/Material.h" />
+		<Unit filename="src/eyespark/resource/mesh/ArrayMesh.h" />
+		<Unit filename="src/eyespark/resource/mesh/CubeMesh.h" />
+		<Unit filename="src/eyespark/resource/mesh/Mesh.h" />
+		<Unit filename="src/eyespark/resource/mesh/PlaneMesh.h" />
+		<Unit filename="src/eyespark/resource/texture/CubeMapTexture.h" />
+		<Unit filename="src/eyespark/resource/texture/EnvironmentTexture.h" />
+		<Unit filename="src/eyespark/resource/texture/ImageTexture.h" />
+		<Unit filename="src/eyespark/resource/texture/IrradianceTexture.h" />
+		<Unit filename="src/eyespark/resource/texture/Texture.h" />
+		<Unit filename="src/eyespark/resource/texture/Texture2D.h" />
+		<Unit filename="src/eyespark/thirdparty/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/eyespark/thirdparty/stb_image.h" />
+		<Unit filename="src/eyespark/util/Error.h" />
+		<Unit filename="src/eyespark/util/Input.h" />
+		<Unit filename="src/eyespark/util/List.h" />
+		<Unit filename="src/eyespark/util/Logger.h" />
+		<Unit filename="src/eyespark/util/Map.h" />
+		<Unit filename="src/eyespark/util/Math.h" />
+		<Unit filename="src/eyespark/util/Matrix4.h" />
+		<Unit filename="src/eyespark/util/Pair.h" />
+		<Unit filename="src/eyespark/util/ResourceManager.h" />
+		<Unit filename="src/eyespark/util/String.h" />
+		<Unit filename="src/eyespark/util/Timer.h" />
+		<Unit filename="src/eyespark/util/Vector2.h" />
+		<Unit filename="src/eyespark/util/Vector3.h" />
+		<Unit filename="src/eyespark/util/Vector4.h" />
+		<Unit filename="src/eyespark/util/WinAPI.h" />
+		<Unit filename="src/eyespark/util/Window.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/node/Player.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

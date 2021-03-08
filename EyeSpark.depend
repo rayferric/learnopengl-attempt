@@ -1,0 +1,1023 @@
+# depslib dependency file v1.0
+1551618918 source:c:\users\user\desktop\programming\cpp\eyespark\src\main.cpp
+	"App.h"
+
+1544387109 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark.h
+	<cmath>
+	<string>
+	<windows.h>
+	"math.h"
+	"vector2.h"
+	"vector3.h"
+	"vector4.h"
+	"matrix4.h"
+	"timer.h"
+	"logger.h"
+
+1544038677 c:\users\user\desktop\programming\cpp\eyespark\src\definitions.h
+
+1544115052 c:\users\user\desktop\programming\cpp\eyespark\src\vector3d.h
+
+1544386555 c:\users\user\desktop\programming\cpp\eyespark\src\timer.h
+
+1544115053 c:\users\user\desktop\programming\cpp\eyespark\src\vector2d.h
+
+1544115051 c:\users\user\desktop\programming\cpp\eyespark\src\vector4d.h
+
+1544377108 c:\users\user\desktop\programming\cpp\eyespark\src\vector2.h
+
+1544377108 c:\users\user\desktop\programming\cpp\eyespark\src\vector3.h
+
+1544377107 c:\users\user\desktop\programming\cpp\eyespark\src\vector4.h
+
+1544384448 c:\users\user\desktop\programming\cpp\eyespark\src\matrix4.h
+
+1544376014 c:\users\user\desktop\programming\cpp\eyespark\src\math.h
+
+1544264682 c:\users\user\desktop\programming\cpp\eyespark\src\vector2f.h
+
+1544264708 c:\users\user\desktop\programming\cpp\eyespark\src\vector3f.h
+
+1544264728 c:\users\user\desktop\programming\cpp\eyespark\src\vector4f.h
+
+1544265032 c:\users\user\desktop\programming\cpp\eyespark\src\matrix4f.h
+	"vector3f.h"
+	"vector4f.h"
+
+1544391878 c:\users\user\desktop\programming\cpp\eyespark\src\logger.h
+
+1551618519 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\eyespark.h
+	<cmath>
+	<windows.h>
+	<glad/glad.h>
+	"thirdparty/stb_image.h"
+	"node/camera/Camera.h"
+	"node/camera/OrthographicCamera.h"
+	"node/camera/PerspectiveCamera.h"
+	"node/light/DirectionalLight.h"
+	"node/light/Light.h"
+	"node/light/PointLight.h"
+	"node/light/SpotLight.h"
+	"node/Model.h"
+	"node/Node.h"
+	"renderer/Renderer.h"
+	"resource/effect/Effect.h"
+	"resource/effect/SSREffect.h"
+	"resource/material/BasicMaterial.h"
+	"resource/material/Material.h"
+	"resource/mesh/ArrayMesh.h"
+	"resource/mesh/CubeMesh.h"
+	"resource/mesh/Mesh.h"
+	"resource/mesh/PlaneMesh.h"
+	"resource/texture/CubeMapTexture.h"
+	"resource/texture/EnvironmentTexture.h"
+	"resource/texture/ImageTexture.h"
+	"resource/texture/IrradianceTexture.h"
+	"resource/texture/Texture.h"
+	"resource/texture/Texture2D.h"
+	"resource/Environment.h"
+	"resource/Scene.h"
+	"resource/Shader.h"
+	"util/App.h"
+	"util/Error.h"
+	"util/Input.h"
+	"util/List.h"
+	"util/Logger.h"
+	"util/Map.h"
+	"util/Math.h"
+	"util/Matrix4.h"
+	"util/Pair.h"
+	"util/String.h"
+	"util/Timer.h"
+	"util/Vector2.h"
+	"util/Vector3.h"
+	"util/Vector4.h"
+	"util/WinAPI.h"
+
+1547735698 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\math\math.h
+
+1547843867 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\math\vector2.h
+	"Math.h"
+
+1547843860 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\math\vector3.h
+	"Math.h"
+
+1547843853 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\math\vector4.h
+	"Math.h"
+
+1547848572 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\math\matrix4.h
+	"Math.h"
+	"Vector3.h"
+	"Vector4.h"
+
+1547459219 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\timer.h
+
+1549801399 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\logger.h
+	"../util/String.h"
+
+1544557575 c:\users\user\desktop\programming\cpp\eyespark\src\window.h
+
+1545000187 c:\users\user\desktop\programming\cpp\eyespark\src\window_manager.h
+
+1544595916 source:c:\users\user\desktop\programming\cpp\eyespark\src\resource.rc
+
+1545000118 source:c:\users\user\desktop\programming\cpp\eyespark\resource.rc
+
+1529173255 source:c:\users\user\desktop\programming\cpp\eyespark\src\lib\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1546014638 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\windows.h
+
+1551618270 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\winapi.h
+	"../util/String.h"
+
+1546183164 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\resource_manager.h
+
+1551618355 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\error.h
+	"../util/Logger.h"
+	"../util/String.h"
+	"../util/WinAPI.h"
+
+1547059368 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\wrapper\shader.h
+
+1551624908 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\app.h
+	"../node/camera/Camera.h"
+	"../node/camera/PerspectiveCamera.h"
+	"../renderer/Renderer.h"
+	"../resource/Environment.h"
+	"../resource/Scene.h"
+	"../util/String.h"
+	"../util/Timer.h"
+	"../util/Window.h"
+
+1547471992 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\loader.h
+	"Logger.h"
+	"WinApi.h"
+
+1551618414 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\shader.h
+	"../util/Error.h"
+	"../util/Logger.h"
+	"../util/Matrix4.h"
+	"../util/String.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+	"../util/WinAPI.h"
+
+1547472283 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture.h
+
+1547503440 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\mesh.h
+
+1547503447 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\arraymesh.h
+	"../util/Logger.h"
+	"../util/WinApi.h"
+	"Mesh.h"
+
+1551618445 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\mesh\arraymesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/String.h"
+	"../../util/WinAPI.h"
+
+1547927717 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\mesh\mesh.h
+
+1548516783 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\mesh\planemesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Vector2.h"
+
+1529193180 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\thirdparty\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1547507096 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\imagetexture.h
+	"../util/Logger.h"
+	"../util/WinApi.h"
+	"Texture.h"
+
+1552210587 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture\imagetexture.h
+	"../../resource/texture/Texture2D.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/String.h"
+	"../../util/WinAPI.h"
+
+1548585657 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture\texture.h
+
+1547548783 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\basicmaterial.h
+	"../math/Matrix4.h"
+	"../math/Vector4.h"
+	"Material.h"
+	"texture/Texture.h"
+
+1547548663 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\material.h
+	"../math/Matrix4.h"
+	"Shader.h"
+
+1549105778 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\material\basicmaterial.h
+	"../../resource/material/Material.h"
+	"../../resource/texture/Texture2D.h"
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+	"../../util/Vector3.h"
+	"../../util/Vector4.h"
+
+1549050711 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\material\material.h
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1547928403 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\renderer.h
+	"node/Model.h"
+	"node/Node.h"
+	"resource/framebuffer/GBufferFramebuffer.h"
+	"util/Matrix4.h"
+	"util/Scene.h"
+
+1551615568 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\node.h
+	"../util/List.h"
+	"../util/Matrix4.h"
+	"../util/Vector3.h"
+
+1549050701 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\model.h
+	"../node/Node.h"
+	"../resource/material/Material.h"
+	"../resource/mesh/Mesh.h"
+
+1549997548 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\list.h
+
+1548148611 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\scene.h
+	"../node/Model.h"
+	"../node/Node.h"
+	"../util/List.h"
+
+1549648228 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\string.h
+
+1547857071 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\matrix4.h
+	"../util/Math.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+
+1549645977 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\math.h
+
+1548535608 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\vector3.h
+	"../util/Math.h"
+	"../util/Vector4.h"
+
+1548535821 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\vector4.h
+	"../util/Math.h"
+
+1548535812 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\vector2.h
+	"../util/Math.h"
+
+1549646128 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\camera\camera.h
+	"../../node/Node.h"
+	"../../util/Matrix4.h"
+
+1549643183 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\camera\orthographiccamera.h
+	"../../node/camera/Camera.h"
+	"../../util/Matrix4.h"
+
+1549643190 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\camera\perspectivecamera.h
+	"../../node/camera/Camera.h"
+	"../../util/Matrix4.h"
+
+1548017264 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture\emptytexture.h
+	"../../resource/texture/Texture.h"
+
+1547928313 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\framebuffer\gbufferframebuffer.h
+	"../../resource/framebuffer/Framebuffer.h"
+	"../../resource/texture/EmptyTexture.h"
+	"../../resource/texture/Texture.h"
+	"../../util/Logger.h"
+	"../../util/WinApi.h"
+
+1547927764 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\framebuffer\framebuffer.h
+
+1547931739 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\renderer\framebuffer\framebuffer.h
+
+1547934109 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\renderer\framebuffer\gbufferframebuffer.h
+	"../../renderer/framebuffer/Framebuffer.h"
+	"../../resource/texture/EmptyTexture.h"
+	"../../resource/texture/Texture.h"
+	"../../util/Logger.h"
+	"../../util/WinApi.h"
+
+1551639110 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\renderer\renderer.h
+	"../node/light/DirectionalLight.h"
+	"../node/Model.h"
+	"../node/Node.h"
+	"../resource/effect/Effect.h"
+	"../resource/mesh/CubeMesh.h"
+	"../resource/mesh/Mesh.h"
+	"../resource/mesh/PlaneMesh.h"
+	"../resource/Environment.h"
+	"../resource/Scene.h"
+	"../resource/Shader.h"
+	"../util/Error.h"
+	"../util/Matrix4.h"
+	"../util/Vector2.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+
+1548440154 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\light\directionallight.h
+	"../../node/light/Light.h"
+	"../../util/Vector3.h"
+
+1548440132 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\light\light.h
+	"../../node/Node.h"
+	"../../util/Vector3.h"
+
+1548440160 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\light\pointlight.h
+	"../../node/light/Light.h"
+	"../../util/Vector3.h"
+
+1548440171 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\node\light\spotlight.h
+	"../../node/light/PointLight.h"
+	"../../util/Vector3.h"
+
+1548197374 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\material\spatialmaterial.h
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1548202013 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\material\canvas\canvasmaterial.h
+	"../../../resource/Shader.h"
+
+1548688839 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\material\spatial\basicmaterial.h
+	"../../../resource/texture/Texture2D.h"
+	"../../../resource/material/spatial/SpatialMaterial.h"
+	"../../../resource/Shader.h"
+	"../../../util/Matrix4.h"
+	"../../../util/Vector3.h"
+	"../../../util/Vector4.h"
+
+1548439357 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\material\spatial\spatialmaterial.h
+	"../../../resource/Shader.h"
+	"../../../util/Matrix4.h"
+
+1551000568 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\scene.h
+	"../node/Model.h"
+	"../node/Node.h"
+	"../util/List.h"
+
+1548262565 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\material\effect\effectmaterial.h
+	"../../../resource/Shader.h"
+
+1551637122 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\environment.h
+	"../resource/effect/Effect.h"
+	"../resource/texture/CubeMapTexture.h"
+	"../util/List.h"
+
+1548516757 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\mesh\cubemesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Math.h"
+	"../../util/Vector3.h"
+
+1551618469 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture\environmenttexture.h
+	"../../resource/mesh/Mesh.h"
+	"../../resource/mesh/CubeMesh.h"
+	"../../resource/texture/CubeMapTexture.h"
+	"../../resource/Shader.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/Matrix4.h"
+	"../../util/String.h"
+	"../../util/Vector3.h"
+	"../../util/WinAPI.h"
+
+1548536559 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture\texture2d.h
+	"../../resource/texture/Texture.h"
+
+1548709805 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture\cubemaptexture.h
+	"../../resource/texture/Texture.h"
+
+1548559904 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture\radiancetexture.h
+	"../../resource/mesh/Mesh.h"
+	"../../resource/mesh/CubeMesh.h"
+	"../../resource/texture/CubeMapTexture.h"
+	"../../resource/Shader.h"
+	"../../util/Math.h"
+	"../../util/Matrix4.h"
+	"../../util/Vector3.h"
+
+1548709781 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\texture\irradiancetexture.h
+	"../../resource/mesh/Mesh.h"
+	"../../resource/mesh/CubeMesh.h"
+	"../../resource/texture/CubeMapTexture.h"
+	"../../resource/Shader.h"
+	"../../util/Math.h"
+	"../../util/Matrix4.h"
+	"../../util/Vector3.h"
+
+1551616386 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\effect\effect.h
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1551627821 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\input.h
+	"../util/List.h"
+	"../util/Map.h"
+	"../util/String.h"
+
+1549140964 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\pair.h
+
+1549797292 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\map.h
+	"../util/Pair.h"
+
+1549811996 c:\users\user\desktop\programming\cpp\eyespark\src\node\player.h
+
+1551618287 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\util\window.h
+	"../node/camera/Camera.h"
+	"../renderer/Renderer.h"
+	"../util/Error.h"
+	"../util/String.h"
+
+1550085257 source:c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\thirdparty\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1552228601 c:\users\user\desktop\programming\cpp\eyespark\src\app.h
+	"eyespark/EyeSpark.h"
+	"node/Player.h"
+
+1551211129 c:\users\user\desktop\programming\cpp\eyespark\src\eyespark\resource\effect\ssreffect.h
+	"../../resource/effect/Effect.h"
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1550088857 source:c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\thirdparty\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1552843095 source:c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\main.cpp
+	"eyespark/EyeSpark.h"
+	"node/Player.h"
+
+1552414979 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\eyespark.h
+	<cmath>
+	<windows.h>
+	<glad/glad.h>
+	"thirdparty/stb_image.h"
+	"node/camera/Camera.h"
+	"node/camera/OrthographicCamera.h"
+	"node/camera/PerspectiveCamera.h"
+	"node/light/DirectionalLight.h"
+	"node/light/Light.h"
+	"node/light/PointLight.h"
+	"node/light/SpotLight.h"
+	"node/Model.h"
+	"node/Node.h"
+	"renderer/Renderer.h"
+	"resource/effect/Effect.h"
+	"resource/effect/SSREffect.h"
+	"resource/material/BasicMaterial.h"
+	"resource/material/Material.h"
+	"resource/mesh/ArrayMesh.h"
+	"resource/mesh/CubeMesh.h"
+	"resource/mesh/Mesh.h"
+	"resource/mesh/PlaneMesh.h"
+	"resource/texture/CubeMapTexture.h"
+	"resource/texture/EnvironmentTexture.h"
+	"resource/texture/ImageTexture.h"
+	"resource/texture/IrradianceTexture.h"
+	"resource/texture/Texture.h"
+	"resource/texture/Texture2D.h"
+	"resource/Environment.h"
+	"resource/Scene.h"
+	"resource/Shader.h"
+	"util/Error.h"
+	"util/Input.h"
+	"util/List.h"
+	"util/Logger.h"
+	"util/Map.h"
+	"util/Math.h"
+	"util/Matrix4.h"
+	"util/Pair.h"
+	"util/String.h"
+	"util/Timer.h"
+	"util/Vector2.h"
+	"util/Vector3.h"
+	"util/Vector4.h"
+	"util/WinAPI.h"
+	"util/Window.h"
+
+1529196780 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\thirdparty\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1549649728 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\camera\camera.h
+	"../../node/Node.h"
+	"../../util/Matrix4.h"
+
+1551619168 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\node.h
+	"../util/List.h"
+	"../util/Matrix4.h"
+	"../util/Vector3.h"
+
+1550001148 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\list.h
+
+1547860671 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\matrix4.h
+	"../util/Math.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+
+1549649577 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\math.h
+
+1548539208 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\vector3.h
+	"../util/Math.h"
+	"../util/Vector4.h"
+
+1548539421 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\vector4.h
+	"../util/Math.h"
+
+1549646783 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\camera\orthographiccamera.h
+	"../../node/camera/Camera.h"
+	"../../util/Matrix4.h"
+
+1549646790 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\camera\perspectivecamera.h
+	"../../node/camera/Camera.h"
+	"../../util/Matrix4.h"
+
+1548443754 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\light\directionallight.h
+	"../../node/light/Light.h"
+	"../../util/Vector3.h"
+
+1548443732 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\light\light.h
+	"../../node/Node.h"
+	"../../util/Vector3.h"
+
+1548443760 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\light\pointlight.h
+	"../../node/light/Light.h"
+	"../../util/Vector3.h"
+
+1548443771 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\light\spotlight.h
+	"../../node/light/PointLight.h"
+	"../../util/Vector3.h"
+
+1549054301 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\node\model.h
+	"../node/Node.h"
+	"../resource/material/Material.h"
+	"../resource/mesh/Mesh.h"
+
+1549054311 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\material\material.h
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1551622014 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\shader.h
+	"../util/Error.h"
+	"../util/Logger.h"
+	"../util/Matrix4.h"
+	"../util/String.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+	"../util/WinAPI.h"
+
+1551621955 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\error.h
+	"../util/Logger.h"
+	"../util/String.h"
+	"../util/WinAPI.h"
+
+1549804999 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\logger.h
+	"../util/String.h"
+
+1549651828 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\string.h
+
+1551621870 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\winapi.h
+	"../util/String.h"
+
+1547931317 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\mesh\mesh.h
+
+1552590354 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\renderer\renderer.h
+	"../node/light/DirectionalLight.h"
+	"../node/Model.h"
+	"../node/Node.h"
+	"../resource/effect/Effect.h"
+	"../resource/mesh/CubeMesh.h"
+	"../resource/mesh/Mesh.h"
+	"../resource/mesh/PlaneMesh.h"
+	"../resource/Environment.h"
+	"../resource/Scene.h"
+	"../resource/Shader.h"
+	"../util/Error.h"
+	"../util/Matrix4.h"
+	"../util/Vector2.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+
+1551619986 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\effect\effect.h
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1548520357 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\mesh\cubemesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Math.h"
+	"../../util/Vector3.h"
+
+1548520383 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\mesh\planemesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Vector2.h"
+
+1548539412 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\vector2.h
+	"../util/Math.h"
+
+1551640722 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\environment.h
+	"../resource/effect/Effect.h"
+	"../resource/texture/CubeMapTexture.h"
+	"../util/List.h"
+
+1548713405 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\texture\cubemaptexture.h
+	"../../resource/texture/Texture.h"
+
+1548589257 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\texture\texture.h
+
+1551004168 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\scene.h
+	"../node/Model.h"
+	"../node/Node.h"
+	"../util/List.h"
+
+1551214729 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\effect\ssreffect.h
+	"../../resource/effect/Effect.h"
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1549109378 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\material\basicmaterial.h
+	"../../resource/material/Material.h"
+	"../../resource/texture/Texture2D.h"
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+	"../../util/Vector3.h"
+	"../../util/Vector4.h"
+
+1548540159 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\texture\texture2d.h
+	"../../resource/texture/Texture.h"
+
+1551622045 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\mesh\arraymesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/String.h"
+	"../../util/WinAPI.h"
+
+1551622069 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\texture\environmenttexture.h
+	"../../resource/mesh/Mesh.h"
+	"../../resource/mesh/CubeMesh.h"
+	"../../resource/texture/CubeMapTexture.h"
+	"../../resource/Shader.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/Matrix4.h"
+	"../../util/String.h"
+	"../../util/Vector3.h"
+	"../../util/WinAPI.h"
+
+1552841165 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\texture\imagetexture.h
+	"../../resource/texture/Texture2D.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/String.h"
+	"../../util/WinAPI.h"
+
+1548713381 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\resource\texture\irradiancetexture.h
+	"../../resource/mesh/Mesh.h"
+	"../../resource/mesh/CubeMesh.h"
+	"../../resource/texture/CubeMapTexture.h"
+	"../../resource/Shader.h"
+	"../../util/Math.h"
+	"../../util/Matrix4.h"
+	"../../util/Vector3.h"
+
+1551631421 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\input.h
+	"../util/List.h"
+	"../util/Map.h"
+	"../util/String.h"
+
+1549800892 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\map.h
+	"../util/Pair.h"
+
+1549144564 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\pair.h
+
+1547462819 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\timer.h
+
+1551621887 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\eyespark\util\window.h
+	"../node/camera/Camera.h"
+	"../renderer/Renderer.h"
+	"../util/Error.h"
+	"../util/String.h"
+
+1552415249 c:\users\user\desktop\programming\cpp\eyespark_2019-04-09\src\node\player.h
+
+1556013491 source:c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\thirdparty\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1615237577 source:c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\main.cpp
+	"eyespark/EyeSpark.h"
+	"node/Player.h"
+
+1556013484 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\eyespark.h
+	<cmath>
+	<windows.h>
+	<glad/glad.h>
+	"thirdparty/stb_image.h"
+	"node/camera/Camera.h"
+	"node/camera/OrthographicCamera.h"
+	"node/camera/PerspectiveCamera.h"
+	"node/light/DirectionalLight.h"
+	"node/light/Light.h"
+	"node/light/PointLight.h"
+	"node/light/SpotLight.h"
+	"node/Model.h"
+	"node/Node.h"
+	"renderer/Renderer.h"
+	"resource/effect/Effect.h"
+	"resource/effect/SSREffect.h"
+	"resource/material/BasicMaterial.h"
+	"resource/material/Material.h"
+	"resource/mesh/ArrayMesh.h"
+	"resource/mesh/CubeMesh.h"
+	"resource/mesh/Mesh.h"
+	"resource/mesh/PlaneMesh.h"
+	"resource/texture/CubeMapTexture.h"
+	"resource/texture/EnvironmentTexture.h"
+	"resource/texture/ImageTexture.h"
+	"resource/texture/IrradianceTexture.h"
+	"resource/texture/Texture.h"
+	"resource/texture/Texture2D.h"
+	"resource/Environment.h"
+	"resource/Scene.h"
+	"resource/Shader.h"
+	"util/Error.h"
+	"util/Input.h"
+	"util/List.h"
+	"util/Logger.h"
+	"util/Map.h"
+	"util/Math.h"
+	"util/Matrix4.h"
+	"util/Pair.h"
+	"util/String.h"
+	"util/Timer.h"
+	"util/Vector2.h"
+	"util/Vector3.h"
+	"util/Vector4.h"
+	"util/WinAPI.h"
+	"util/Window.h"
+
+1556013492 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\thirdparty\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1556013485 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\camera\camera.h
+	"../../node/Node.h"
+	"../../util/Matrix4.h"
+
+1556013485 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\node.h
+	"../util/List.h"
+	"../util/Matrix4.h"
+	"../util/Vector3.h"
+
+1556013492 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\list.h
+
+1556013493 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\matrix4.h
+	"../util/Math.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+
+1556013493 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\math.h
+
+1556013494 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\vector3.h
+	"../util/Math.h"
+	"../util/Vector4.h"
+
+1556013494 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\vector4.h
+	"../util/Math.h"
+
+1556013485 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\camera\orthographiccamera.h
+	"../../node/camera/Camera.h"
+	"../../util/Matrix4.h"
+
+1556013485 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\camera\perspectivecamera.h
+	"../../node/camera/Camera.h"
+	"../../util/Matrix4.h"
+
+1556013485 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\light\directionallight.h
+	"../../node/light/Light.h"
+	"../../util/Vector3.h"
+
+1556013486 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\light\light.h
+	"../../node/Node.h"
+	"../../util/Vector3.h"
+
+1556013486 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\light\pointlight.h
+	"../../node/light/Light.h"
+	"../../util/Vector3.h"
+
+1556013486 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\light\spotlight.h
+	"../../node/light/PointLight.h"
+	"../../util/Vector3.h"
+
+1556013484 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\node\model.h
+	"../node/Node.h"
+	"../resource/material/Material.h"
+	"../resource/mesh/Mesh.h"
+
+1556013488 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\material\material.h
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1556013488 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\shader.h
+	"../util/Error.h"
+	"../util/Logger.h"
+	"../util/Matrix4.h"
+	"../util/String.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+	"../util/WinAPI.h"
+
+1556013492 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\error.h
+	"../util/Logger.h"
+	"../util/String.h"
+	"../util/WinAPI.h"
+
+1556013492 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\logger.h
+	"../util/String.h"
+
+1556013493 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\string.h
+
+1556013494 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\winapi.h
+	"../util/String.h"
+
+1556013489 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\mesh\mesh.h
+
+1587499639 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\renderer\renderer.h
+	"../node/light/DirectionalLight.h"
+	"../node/Model.h"
+	"../node/Node.h"
+	"../resource/effect/Effect.h"
+	"../resource/mesh/CubeMesh.h"
+	"../resource/mesh/Mesh.h"
+	"../resource/mesh/PlaneMesh.h"
+	"../resource/Environment.h"
+	"../resource/Scene.h"
+	"../resource/Shader.h"
+	"../util/Error.h"
+	"../util/Matrix4.h"
+	"../util/Vector2.h"
+	"../util/Vector3.h"
+	"../util/Vector4.h"
+
+1556013488 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\effect\effect.h
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1587240535 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\mesh\cubemesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Math.h"
+	"../../util/Vector3.h"
+
+1556013489 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\mesh\planemesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Vector2.h"
+
+1556013494 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\vector2.h
+	"../util/Math.h"
+
+1556013487 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\environment.h
+	"../resource/effect/Effect.h"
+	"../resource/texture/CubeMapTexture.h"
+	"../util/List.h"
+
+1556013490 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\texture\cubemaptexture.h
+	"../../resource/texture/Texture.h"
+
+1556013491 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\texture\texture.h
+
+1556013487 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\scene.h
+	"../node/Model.h"
+	"../node/Node.h"
+	"../util/List.h"
+
+1556013488 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\effect\ssreffect.h
+	"../../resource/effect/Effect.h"
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+
+1556013488 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\material\basicmaterial.h
+	"../../resource/material/Material.h"
+	"../../resource/texture/Texture2D.h"
+	"../../resource/Shader.h"
+	"../../util/Matrix4.h"
+	"../../util/Vector3.h"
+	"../../util/Vector4.h"
+
+1556013491 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\texture\texture2d.h
+	"../../resource/texture/Texture.h"
+
+1556013489 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\mesh\arraymesh.h
+	"../../resource/mesh/Mesh.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/String.h"
+	"../../util/WinAPI.h"
+
+1556013490 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\texture\environmenttexture.h
+	"../../resource/mesh/Mesh.h"
+	"../../resource/mesh/CubeMesh.h"
+	"../../resource/texture/CubeMapTexture.h"
+	"../../resource/Shader.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/Matrix4.h"
+	"../../util/String.h"
+	"../../util/Vector3.h"
+	"../../util/WinAPI.h"
+
+1556013490 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\texture\imagetexture.h
+	"../../resource/texture/Texture2D.h"
+	"../../util/Error.h"
+	"../../util/Logger.h"
+	"../../util/String.h"
+	"../../util/WinAPI.h"
+
+1556013491 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\resource\texture\irradiancetexture.h
+	"../../resource/mesh/Mesh.h"
+	"../../resource/mesh/CubeMesh.h"
+	"../../resource/texture/CubeMapTexture.h"
+	"../../resource/Shader.h"
+	"../../util/Math.h"
+	"../../util/Matrix4.h"
+	"../../util/Vector3.h"
+
+1556013492 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\input.h
+	"../util/List.h"
+	"../util/Map.h"
+	"../util/String.h"
+
+1556013493 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\map.h
+	"../util/Pair.h"
+
+1556013493 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\pair.h
+
+1556013494 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\timer.h
+
+1556013495 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\eyespark\util\window.h
+	"../node/camera/Camera.h"
+	"../renderer/Renderer.h"
+	"../util/Error.h"
+	"../util/String.h"
+
+1556013496 c:\users\user\documents\codeblocks\eyespark_2019-04-09\src\node\player.h
+

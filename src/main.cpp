@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
     light2->updateTransform();
     //scene->add(light2);
 
-    BasicMaterial *groundMaterial = new BasicMaterial(Vector4(1.0), 1.0, 1.0, Vector3(0.0));
+    /*BasicMaterial *groundMaterial = new BasicMaterial(Vector4(1.0), 1.0, 1.0, Vector3(0.0));
     groundMaterial->normalMap = new ImageTexture("textures/test_n.png", TextureFilter::TRILINEAR);
     groundMaterial->albedoMap = new ImageTexture("textures/test_a.png", TextureFilter::TRILINEAR);
     groundMaterial->metallicMap = new ImageTexture("textures/test_mra.png", TextureFilter::TRILINEAR);
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
     Model *sphereModel = new Model(new ArrayMesh("models/sphere.msh"), new BasicMaterial(Vector4(1.0), 1.0, 0.1, Vector3(0.0)));
     sphereModel->translation.y = 1;
     sphereModel->updateTransform();
-    scene->add(sphereModel);
+    scene->add(sphereModel);*/
 
     /*Model *alienModel = new Model(new ArrayMesh("models/alien.msh"), new BasicMaterial(Vector4(0.9,0.9,0.9,1.0), 0.2, 0.7, Vector3(0.0)));
     alienModel->translation = Vector3(1, 0, 2);
@@ -67,14 +67,14 @@ int main(int argc, char *argv[]) {
         }
     }*/
 
-    /*BasicMaterial *cerberusMaterial = new BasicMaterial(Vector4(1.0), 1.0, 1.0, Vector3(0.0));
+    BasicMaterial *cerberusMaterial = new BasicMaterial(Vector4(1.0), 1.0, 1.0, Vector3(0.0));
     cerberusMaterial->normalMap = new ImageTexture("textures/cerberus_n.png", TextureFilter::TRILINEAR);
     cerberusMaterial->albedoMap = new ImageTexture("textures/cerberus_a.png", TextureFilter::TRILINEAR);
     cerberusMaterial->metallicMap = new ImageTexture("textures/cerberus_m.png", TextureFilter::TRILINEAR);
     cerberusMaterial->roughnessMap = new ImageTexture("textures/cerberus_r.png", TextureFilter::TRILINEAR);
     cerberusMaterial->aoMap = new ImageTexture("textures/cerberus_a.png", TextureFilter::TRILINEAR);
     Model *cerberusModel = new Model(new ArrayMesh("models/cerberus.msh"), cerberusMaterial);
-    scene->add(cerberusModel);*/
+    scene->add(cerberusModel);
 
 
 

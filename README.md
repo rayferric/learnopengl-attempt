@@ -10,13 +10,13 @@ My 15 y/o attempt at following **[the Learn OpenGL course](https://learnopengl.c
 
 ## Screenshots
 
-![](docs/screenshot_1.png)
+![](docs/screenshot_1.jpg)
 
-![](docs/screenshot_2.png)
+![](docs/screenshot_2.jpg)
 
-![](docs/screenshot_3.png)
+![](docs/screenshot_3.jpg)
 
-![](docs/screenshot_4.png)
+![](docs/screenshot_4.jpg)
 
 ## License
 
